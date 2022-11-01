@@ -16,4 +16,5 @@ jobs:
         run: |
           import platform
           print(platform.processor())
+          print('Hi I am print function')
         shell: python
