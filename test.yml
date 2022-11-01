@@ -1,0 +1,8 @@
+name: Vikash
+age : 28
+address: "asdasd"
+active: true
+jsonObject : {}
+array: 
+     - item1
+     - item2 
