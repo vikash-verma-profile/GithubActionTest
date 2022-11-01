@@ -1,12 +1,14 @@
 name: shell Commands
+
 on: [push]
+
 jobs:
   run-shell-command:
     run-on: ubuntu-latest
     steps:
-      -name: echo a string
-       run: echo "Hi I am running this first time"
-      -name: multiline script
-       run: 
-        node -v 
-        npm -v 
+      - name: echo a string
+        run: echo "Hi I am running this first time"
+      - name: multiline script
+        run: |
+         node -v 
+         npm -v 
