@@ -6,7 +6,7 @@ Use following commands to use git
 Always run your git bash window before running below commands
 
 Git Commands
-1.PWD==>check the path in which we are running our git bash
+|1.PWD|==>check the path in which we are running our git bash|
 2.git init ==>initialize the git .
 3.git add . ==> command to add the files we want to place on remote location
 4.git commit -m "first commit for some fun"
