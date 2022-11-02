@@ -9,8 +9,13 @@ jobs:
         run: |
           pwd
           ls -a 
-      - name: Checkout
-        uses: vikash-verma-profile/GithubAction-2022@main   
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
+          echo $GITHUB_WORKSPACE
+          echo "${{github.token}}"
+          git clone git@github:vikash-verma-profile/GithubAction-2022
+      # - name: Checkout
+      #   uses: vikash-verma-profile/GithubAction-2022@main   
       - name: Simple application
         id: greet
         uses: vikash-verma-profile/test-web-app@main 
