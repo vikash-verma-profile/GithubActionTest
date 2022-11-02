@@ -10,7 +10,9 @@ jobs:
           pwd
           ls -a 
       - name: Checkout
-        uses: vikash-verma-profile/test-web-app@main
+        uses: vikash-verma-profile/GithubActionTest@main
+      - name: List Files After Checkout
+      
       - name: Simple application
         id: greet
         uses: vikash-verma-profile/test-web-app@main 
