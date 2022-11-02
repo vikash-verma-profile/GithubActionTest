@@ -5,6 +5,12 @@ jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:  
+      - name: List Files
+        run: |
+          pwd
+          ls -a 
+      - name: Checkout
+        uses: vikash-verma-profile/test-web-app@main
       - name: Simple application
         id: greet
         uses: vikash-verma-profile/test-web-app@main 
