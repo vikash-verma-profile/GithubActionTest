@@ -13,9 +13,10 @@ jobs:
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
           echo "${{github.token}}"
-          git clone git@github:$GITHUB_REPOSITORY
+          
       # - name: Checkout
-      #   uses: vikash-verma-profile/GithubAction-2022@main   
+      #   uses: vikash-verma-profile/GithubAction-2022@main  
+      # git clone git@github:$GITHUB_REPOSITORY 
       - name: Simple application
         id: greet
         uses: vikash-verma-profile/test-web-app@main 
